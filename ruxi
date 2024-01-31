@@ -1,0 +1,42 @@
+# q1
+x = int(input())
+y = int(input())
+z = int(input())
+total = x + (y*12*z)
+print(total)
+
+
+# q2
+money_given = int(input())
+cost_per_ride = int(input())
+J_rides = money_given // cost_per_ride
+print(J_rides)
+
+
+#q3
+scrambled_word = str(input())
+organised_word = scrambled_word[2:] + scrambled_word[:2]
+print(organised_word)
+
+
+# q4
+password1 = input()
+password2 = input()
+password3 = input()
+if password2 != password1 and password3 != password1:
+  print("BOTH MISMATCH")
+elif password2 != password1:
+  print("ENTRY 2 MISMATCH")
+elif password3 != password1:
+  print("ENTRY 3 MISMATCH")
+else:
+  print("OK")
+
+
+# q5
+input_drink = input()
+if input_drink == "t" or input_drink == "c":
+  refill_no = int(input())
+  print(refill_no +1)
+if input_drink == "h":
+  print("1")
