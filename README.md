@@ -43,7 +43,7 @@ Submit your GitHub (public) repo link (using pull request) to this page by the e
 - CHUA WEI JIE THURSTON
 - GOY SZE LENG ELIZA
 - JAMES NATHAN NORA
-- LI RUIXIN
+- LI RUIXIN https://github.com/Ruxi00/perse24/tree/main
 - LIW YUI HENG
 - MARGARET CHEN PERALTA
 - NG YING XUAN
