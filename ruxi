@@ -40,3 +40,43 @@ if input_drink == "t" or input_drink == "c":
   print(refill_no +1)
 if input_drink == "h":
   print("1")
+
+# q6
+full = 12
+milkshake = 0
+over = 0
+while milkshake < full:
+  x1 = int(input())
+  milkshake += x1
+
+  if milkshake > full:
+    over = milkshake - full
+    break
+
+print(over)
+
+# q7
+learn_words = int(input())
+total = 0
+for i in range(learn_words // 5 + 1):
+    total += (i + 1) * 5
+print(total - (5 - learn_words % 5))
+
+# q8
+word = input()
+box_top = '+-+'
+print(box_top)
+for i in range(len(word)):
+  print(f"|{word[i]}|")
+  print(box_top)
+
+# q9
+valid = 0
+for i in range(12):
+    number = input()  # Read input as a string
+    if int(number[-1]) == int(number[0]) + 1 or int(number[-1]) == int(number[0]) - 1:
+        valid += 1
+
+print(valid)
+
+# q10
